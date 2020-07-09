@@ -1,0 +1,29 @@
+{
+	"name": "trakt-tv",
+	"pluginName": "Trakt Tv",
+	"id": "D24DD999-B506-41BE-B602-5B029F720EB3",
+	"description": "Trakt Tv",
+	"license": "MIT",
+	"version": "1.0.0-alpha.1",
+	"scripts": {
+		"build": "rollup -c",
+		"serve": "rollup -c rollup.serve.js --watch"
+	},
+	"dependencies": {
+		"cheerio": "^1.0.0-rc.3",
+		"rxjs": "^6.6.0"
+	},
+	"devDependencies": {
+		"@nwplay/core": "^0.0.1-alpha.8",
+		"@rollup/plugin-commonjs": "^13.0.0",
+		"@rollup/plugin-json": "^4.1.0",
+		"@rollup/plugin-node-resolve": "^8.0.1",
+		"@types/cheerio": "^0.22.18",
+		"rollup": "^2.17.1",
+		"rollup-plugin-license": "^2.1.0",
+		"rollup-plugin-serve": "^1.0.1",
+		"rollup-plugin-terser": "^6.1.0",
+		"rollup-plugin-typescript2": "^0.27.0",
+		"typescript": "^3.8.3"
+	}
+}
