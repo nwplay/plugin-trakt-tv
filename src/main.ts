@@ -1,12 +1,4 @@
-import {
-    Browser,
-    Extension,
-    Platform,
-    Player,
-    PluginButtonSetting,
-    PluginSetting,
-    TvEpisode
-} from '@nwplay/core';
+import {Browser, Extension, Platform, Player, PluginButtonSetting, PluginSetting, TvEpisode} from '@nwplay/core';
 
 const CLIENT_ID = '851f82e89eeab561acd316de94e667b34b13f62f8eb5ba08936ffa349de18c3d';
 const CLIENT_SECRET = 'e04a5b8bf0a27fa566fd6f65c4acfc32100eb7f4923c53278692706757d34093';
