@@ -28,6 +28,9 @@ export class TraktTv extends Extension {
 
 
     async onMediaItem(item) {
+        if (!this.tokenData) {
+            return
+        }
         if (item instanceof TvShow) {
 
         } else if (item instanceof TvEpisode) {
